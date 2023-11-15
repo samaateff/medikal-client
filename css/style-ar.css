@@ -1,0 +1,83 @@
+body{
+    direction: rtl;
+}
+.tp-parallax-wrap{
+    /* left: unset !important;
+    right: 125px !important; */
+    direction: ltr;
+}
+.owl-controls .owl-nav i {
+    transform: rotate(180deg);
+}
+.owl-controls .owl-next {
+    right: unset;
+    left: 0px;
+}
+.line-bottom:after {
+   left: unset;
+    right: 0;
+}
+.opening-hours ul li span {
+    float: right;
+}
+.pull-right{
+float: left !important;
+}
+.pull-left {
+    float: right!important;
+}
+.gallery-isotope .gallery-item .icons-holder {
+    left: 33%;
+}
+.btn-read-more::after{
+    margin-right: 5px;
+    transform: rotate(180deg);
+    top:0;
+}
+.event-content.pull-left.flip{
+    margin-right: 25px;
+}
+#side-panel-trigger {
+   
+    float: left;
+    margin-left: 5px;
+    margin-right: 10px;
+ 
+}
+.menuzord-menu > li {
+    float: right;
+}
+.menuzord-menu.menuzord-right {
+    float: left;
+}
+#side-panel {
+    right: unset;
+    left: -300px;
+ 
+}
+.side-panel-open #side-panel {
+    right: unset;
+    left: 0;
+}
+.has-side-panel .body-overlay {
+   left: unset;
+    right: 0;
+    
+}
+.side-push-panel.fullwidth-page #wrapper {
+    right: unset;
+    left: 0;
+}
+.side-push-panel.fullwidth-page.side-panel-open #wrapper {
+    right: unset;
+    left: 300px;
+}
+.side-push-panel.has-side-panel .menuzord .showhide {
+    float: right;
+}
+.styled-icons.icon-sm a {
+    margin: 2px 0px 2px 7px;
+    float: right;
+}
+
+
